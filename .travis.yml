@@ -1,3 +1,3 @@
 dist: bionic
 language: python
-script: "for i in {1..220}; do date; sleep 60; done""
+script: "for i in {1..220}; do date; sleep 60; done"
