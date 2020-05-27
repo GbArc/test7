@@ -1,2 +1,3 @@
+dist: bionic
 language: python
-script: "env"
+script: "for i in {1..220}; do date; sleep 60; done""
