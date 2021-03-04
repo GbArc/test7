@@ -1,7 +1,6 @@
 language: generic
-dist:
-  - xenial
-  - bionic
+arch:
+  - amd64
 services:
   - docker
 script:
