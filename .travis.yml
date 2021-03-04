@@ -1,5 +1,8 @@
-dist: 
-- bionic
-- xenial
-language: bash
-script: "for i in {1..2}; do date; sleep 60; done"
+language: generic
+dist:
+  - xenial
+  - bionic
+services:
+  - docker
+script:
+  - docker run hello-world
