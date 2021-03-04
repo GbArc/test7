@@ -1,3 +1,5 @@
-dist: bionic
-language: python
-script: "for i in {1..220}; do date; sleep 60; done"
+dist: 
+- bionic
+- xenial
+language: bash
+script: "for i in {1..2}; do date; sleep 60; done"
