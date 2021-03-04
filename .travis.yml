@@ -1,6 +1,7 @@
 language: generic
 arch:
   - amd64
+  - x86
 services:
   - docker
 script:
