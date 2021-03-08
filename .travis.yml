@@ -5,3 +5,4 @@ php:
   - 8.0
 script:
   - pear version
+  - cat ${TRAVIS_HOME}/.pearrc
