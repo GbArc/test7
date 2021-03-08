@@ -6,3 +6,4 @@ php:
 script:
   - pear version
   - cat ${TRAVIS_HOME}/.pearrc
+  - pear config-show
