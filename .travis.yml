@@ -1,8 +1,3 @@
-language: generic
-arch:
-  - amd64
-  - x86
-services:
-  - docker
+language: php
 script:
-  - docker run hello-world
+  - echo "<? php echo \"!\" ?>" | php
